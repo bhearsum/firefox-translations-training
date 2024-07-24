@@ -1,5 +1,5 @@
 ---
-title: Taskcluster related issues and relationships between them
+title: Taskcluster related issues and relationships between them - remove issues entirely as they are fixed
 ---
 %% Everything Taskcluster related from
 %% https://github.com/mozilla/firefox-translations-training/issues/490
