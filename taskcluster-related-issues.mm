@@ -17,7 +17,7 @@ flowchart LR
 	562[562: <a href='https://github.com/mozilla/firefox-translations-training/issues/562'>oom looks like a preemption</a>]
 	711[711: <a href='https://github.com/mozilla/firefox-translations-training/issues/711'>can't restart to run distillation</a>]
 	719[719: <a href='https://github.com/mozilla/firefox-translations-training/issues/719'>improve usability of running selected tasks</a><br>status: discuss at all hands]
-	728[728: <a href='https://github.com/mozilla/firefox-translations-training/issues/728'>start_stage often reruns evaluate tasks</a><br>status: needs investigation<br>assigned: no]
+	728[728: <a href='https://github.com/mozilla/firefox-translations-training/issues/728'>start_stage often reruns evaluate tasks</a><br>status: waiting on translations eng input<br>assigned: no]
 	466[466: <a href='https://github.com/mozilla/firefox-translations-training/issues/466'>automatically upload artifacts</a>]
 	375[375: <a href='https://github.com/mozilla/firefox-translations-training/issues/375'>switch away from level 1 workers</a><br>status: ready to work on<br>assigned: no]
 	618[618: <a href='https://github.com/mozilla/firefox-translations-training/issues/618'>bring snakepit machines online</a>]
