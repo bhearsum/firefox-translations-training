@@ -38,14 +38,14 @@ flowchart LR
 	tc7128 --> 538
 	tc6894 --> 562
 	719 --> 711
-	700 --> 466
+	710 --> 466
 	391 --> 618
 	700 --> 391
 	tc6951 --> 250
 	tc4595 --> new-gpu-image
 	new-gpu-image --> 700
 	tc7128 --> new-cpu-image
-	new-gpu-image --> 710
+	700 --> 710
 	new-cpu-image --> 710
 	710 --> 391
 	new-cpu-image --> 630
