@@ -13,7 +13,7 @@ flowchart LR
 	653[653: <a href='https://github.com/mozilla/firefox-translations-training/issues/653'>task has too many dependencies</a>]
 	538[538: <a href='https://github.com/mozilla/firefox-translations-training/issues/538'>cache issues on d2g tasks</a>]
 	630[630: <a href='https://github.com/mozilla/firefox-translations-training/issues/630'>random errors on d2g tasks</a><br>status: waiting on new worker image]
-	628[628: <a href='https://github.com/mozilla/firefox-translations-training/issues/628'>eval fails or pretrained backwards model</a><br>status: ready to work on<br>assigned: bhearsum]
+	628[628: <a href='https://github.com/mozilla/firefox-translations-training/issues/628'>eval fails or pretrained backwards model</a><br>status: waiting on review<br>assigned: bhearsum]
 	562[562: <a href='https://github.com/mozilla/firefox-translations-training/issues/562'>oom looks like a preemption</a>]
 	711[711: <a href='https://github.com/mozilla/firefox-translations-training/issues/711'>can't restart to run distillation</a>]
 	719[719: <a href='https://github.com/mozilla/firefox-translations-training/issues/719'>improve usability of running selected tasks</a><br>status: discuss at all hands]
