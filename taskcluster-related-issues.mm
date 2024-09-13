@@ -30,7 +30,6 @@ flowchart LR
 	tc4595[tc4595: <a href='https://github.com/taskcluster/taskcluster/issues/4595'>support headless mode in generic-worker multiuser</a><br>status: being worked on<br>assigned: pmoore]
 	new-cpu-image[build an updated version of the cpu worker image]
 	new-gpu-image[build an updated version of the gpu worker image]
-	806[806: <a href='https://github.com/mozilla/firefox-translations-training/issues/806'>Error uploading artifact: S3 returned status code 400 which could be an intermittent issue</a><br>status: waiting on tc input<br>assigned: bhearsum]
 
 	630 --> 710
 	538 --> 710
