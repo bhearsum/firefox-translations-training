@@ -23,7 +23,6 @@ flowchart LR
 	700[700: <a href='https://github.com/mozilla/firefox-translations-training/issues/700'>use generic worker multiengine on cpu workers</a><br>status: waiting on new worker image<br>assigned: bhearsum]
 	391[391: <a href='https://github.com/mozilla/firefox-translations-training/issues/391'>docker for all tasks</a>]
 	250[250: <a href='https://github.com/mozilla/firefox-translations-training/issues/250'>cancel all action doesn't work</a><br>status: ]
-	tc7151[tc7151: <a href='https://github.com/taskcluster/taskcluster/issues/7151'>increase task dependency limit</a><br>status: waiting for testing + release with increased limit<br>assigned: yarik]
 	tc7128[tc7128: <a href='https://github.com/taskcluster/taskcluster/issues/7128'>generic worker breaks cached files</a><br>status: half fixed; other half needs more investigation<br>assigned: bhearsum/pmoore]
 	tc6894[tc6894: <a href='https://github.com/taskcluster/taskcluster/issues/6894'>generic worker should handle OOM better</a><br>status: needs tc team help<br>assigned: no]
 	tc6951[tc6951: <a href='https://github.com/taskcluster/taskcluster/issues/6951'>action tasks fire against incorrect group sometimes</a><br>status: ready to work on<br>assigned: no]
@@ -33,7 +32,6 @@ flowchart LR
 
 	630 --> 710
 	538 --> 710
-	tc7151 --> 653
 	tc7128 --> 538
 	tc6894 --> 562
 	719 --> 711
