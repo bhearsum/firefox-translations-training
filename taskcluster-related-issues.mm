@@ -10,12 +10,11 @@ title: Taskcluster related issues and relationships between them - remove issues
 
 flowchart LR
 	710[710: <a href='https://github.com/mozilla/firefox-translations-training/issues/710'>switch to generic worker for all tasks</a>]
-	653[653: <a href='https://github.com/mozilla/firefox-translations-training/issues/653'>task has too many dependencies</a>]
 	538[538: <a href='https://github.com/mozilla/firefox-translations-training/issues/538'>cache issues on d2g tasks</a>]
 	630[630: <a href='https://github.com/mozilla/firefox-translations-training/issues/630'>random errors on d2g tasks</a><br>status: waiting on new worker image]
 	562[562: <a href='https://github.com/mozilla/firefox-translations-training/issues/562'>oom looks like a preemption</a>]
 	711[711: <a href='https://github.com/mozilla/firefox-translations-training/issues/711'>can't restart to run distillation</a>]
-	719[719: <a href='https://github.com/mozilla/firefox-translations-training/issues/719'>improve usability of running selected tasks</a><br>status: needs brainstormingdiscuss at all hands]
+	719[719: <a href='https://github.com/mozilla/firefox-translations-training/issues/719'>improve usability of running selected tasks</a><br>status: needs brainstorming]
 	728[728: <a href='https://github.com/mozilla/firefox-translations-training/issues/728'>start_stage often reruns evaluate tasks</a><br>status: translations eng should work on it<br>assigned: no]
 	466[466: <a href='https://github.com/mozilla/firefox-translations-training/issues/466'>automatically upload artifacts</a>]
 	375[375: <a href='https://github.com/mozilla/firefox-translations-training/issues/375'>switch away from level 1 workers</a><br>status: ready to work on<br>assigned: no]
