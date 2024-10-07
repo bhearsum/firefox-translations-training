@@ -19,7 +19,7 @@ flowchart LR
 	466[466: <a href='https://github.com/mozilla/firefox-translations-training/issues/466'>automatically upload artifacts</a>]
 	375[375: <a href='https://github.com/mozilla/firefox-translations-training/issues/375'>switch away from level 1 workers</a><br>status: ready to work on<br>assigned: no]
 	618[618: <a href='https://github.com/mozilla/firefox-translations-training/issues/618'>bring snakepit machines online</a>]
-	700[700: <a href='https://github.com/mozilla/firefox-translations-training/issues/700'>use generic worker multiengine on cpu workers</a><br>status: waiting on new worker image<br>assigned: bhearsum]
+	700[700: <a href='https://github.com/mozilla/firefox-translations-training/issues/700'>use generic worker multiengine on gpu workers</a><br>status: waiting on new worker image<br>assigned: bhearsum]
 	391[391: <a href='https://github.com/mozilla/firefox-translations-training/issues/391'>docker for all tasks</a>]
 	250[250: <a href='https://github.com/mozilla/firefox-translations-training/issues/250'>cancel all action doesn't work</a><br>status: ]
 	tc7128[tc7128: <a href='https://github.com/taskcluster/taskcluster/issues/7128'>generic worker breaks cached files</a><br>status: half fixed; other half needs more investigation<br>assigned: bhearsum/pmoore]
