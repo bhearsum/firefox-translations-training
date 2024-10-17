@@ -14,7 +14,7 @@ flowchart LR
 	630[630: <a href='https://github.com/mozilla/firefox-translations-training/issues/630'>random errors on d2g tasks</a><br>status: waiting on new worker image]
 	562[562: <a href='https://github.com/mozilla/firefox-translations-training/issues/562'>oom looks like a preemption</a>]
 	711[711: <a href='https://github.com/mozilla/firefox-translations-training/issues/711'>can't restart to run distillation</a>]
-	719[719: <a href='https://github.com/mozilla/firefox-translations-training/issues/719'>improve usability of running selected tasks</a><br>status: needs brainstorming]
+	719[719: <a href='https://github.com/mozilla/firefox-translations-training/issues/719'>improve usability of running selected tasks</a><br>status: ready to work on]
 	728[728: <a href='https://github.com/mozilla/firefox-translations-training/issues/728'>start_stage often reruns evaluate tasks</a><br>status: translations eng should work on it<br>assigned: no]
 	466[466: <a href='https://github.com/mozilla/firefox-translations-training/issues/466'>automatically upload artifacts</a>]
 	375[375: <a href='https://github.com/mozilla/firefox-translations-training/issues/375'>switch away from level 1 workers</a><br>status: ready to work on<br>assigned: no]
@@ -25,10 +25,10 @@ flowchart LR
 	tc7128[tc7128: <a href='https://github.com/taskcluster/taskcluster/issues/7128'>generic worker breaks cached files</a><br>status: half fixed; other half needs more investigation<br>assigned: bhearsum/pmoore]
 	tc6894[tc6894: <a href='https://github.com/taskcluster/taskcluster/issues/6894'>generic worker should handle OOM better</a><br>status: needs tc team help<br>assigned: no]
 	tc6951[tc6951: <a href='https://github.com/taskcluster/taskcluster/issues/6951'>action tasks fire against incorrect group sometimes</a><br>status: ready to work on<br>assigned: no]
-	tc4595[tc4595: <a href='https://github.com/taskcluster/taskcluster/issues/4595'>support headless mode in generic-worker multiuser</a><br>status: being worked on<br>assigned: pmoore]
 	new-cpu-image[build an updated version of the cpu worker image]
 	new-gpu-image[build an updated version of the gpu worker image]
 	549[549: <a href='https://github.com/mozilla/firefox-translations-training/issues/549'>dns resolution issues</a><br>status: ready to work on<br>assigned: bhearsum]
+	mono149[mono149: <a href='https://github.com/mozilla-platform-ops/monopacker/pull/149'>use dnsmasq for translations generic worker</a><br>status: being worked on<br>assigned: bhearsum]
 
 	630 --> 710
 	538 --> 710
@@ -39,10 +39,11 @@ flowchart LR
 	391 --> 618
 	700 --> 391
 	tc6951 --> 250
-	tc4595 --> new-gpu-image
 	new-gpu-image --> 700
 	tc7128 --> new-cpu-image
 	700 --> 710
 	new-cpu-image --> 710
 	710 --> 391
 	new-cpu-image --> 630
+	710 --> 375
+	mono149 --> 549
